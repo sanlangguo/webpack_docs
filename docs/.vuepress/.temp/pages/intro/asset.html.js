@@ -1,13 +1,19 @@
 export const data = {
   "key": "v-0670fc65",
   "path": "/intro/asset.html",
-  "title": "学习资料",
+  "title": "",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
   "git": {
-    "contributors": []
+    "contributors": [
+      {
+        "name": "三郎过",
+        "email": "SanLangGuo@outlook.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "intro/asset.md"
 }

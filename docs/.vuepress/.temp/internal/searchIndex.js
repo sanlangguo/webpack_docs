@@ -7,6 +7,61 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "依赖环境",
+    "headers": [],
+    "path": "/intro/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "学习资料",
+    "headers": [],
+    "path": "/intro/asset.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "适合群体",
+    "headers": [],
+    "path": "/intro/group.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "我能学到什么",
+    "headers": [],
+    "path": "/intro/learn.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前置知识",
+    "headers": [],
+    "path": "/intro/pre.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前言",
+    "headers": [
+      {
+        "level": 2,
+        "title": "为什么需要打包工具？",
+        "slug": "为什么需要打包工具",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "有哪些打包工具？",
+        "slug": "有哪些打包工具",
+        "children": []
+      }
+    ],
+    "path": "/base/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "基本使用",
     "headers": [
       {
@@ -644,26 +699,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "前言",
-    "headers": [
-      {
-        "level": 2,
-        "title": "为什么需要打包工具？",
-        "slug": "为什么需要打包工具",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "有哪些打包工具？",
-        "slug": "有哪些打包工具",
-        "children": []
-      }
-    ],
-    "path": "/base/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "开发服务器&自动化",
     "headers": [
       {
@@ -697,92 +732,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "React 脚手架",
-    "headers": [
-      {
-        "level": 2,
-        "title": "开发模式配置",
-        "slug": "开发模式配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "生产模式配置",
-        "slug": "生产模式配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他配置",
-        "slug": "其他配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "合并开发和生产配置",
-        "slug": "合并开发和生产配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "优化配置",
-        "slug": "优化配置",
-        "children": []
-      }
-    ],
-    "path": "/project/react-cli.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "介绍",
     "headers": [],
-    "path": "/project/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "总结",
-    "headers": [],
-    "path": "/project/summary.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Vue 脚手架",
-    "headers": [
-      {
-        "level": 2,
-        "title": "开发模式配置",
-        "slug": "开发模式配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "生产模式配置",
-        "slug": "生产模式配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他配置",
-        "slug": "其他配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "合并开发和生产配置",
-        "slug": "合并开发和生产配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "优化配置",
-        "slug": "优化配置",
-        "children": []
-      }
-    ],
-    "path": "/project/vue-cli.html",
+    "path": "/origin/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -996,19 +948,12 @@ export const searchIndex = [
       },
       {
         "level": 2,
-        "title": "InlineRuntimeWebpackPlugin",
-        "slug": "inlineruntimewebpackplugin",
+        "title": "InlineChunkWebpackPlugin",
+        "slug": "inlinechunkwebpackplugin",
         "children": []
       }
     ],
     "path": "/origin/plugin.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "介绍",
-    "headers": [],
-    "path": "/origin/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1020,37 +965,99 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "学习资料",
+    "title": "介绍",
     "headers": [],
-    "path": "/intro/asset.html",
+    "path": "/project/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "适合群体",
-    "headers": [],
-    "path": "/intro/group.html",
+    "title": "React 脚手架",
+    "headers": [
+      {
+        "level": 2,
+        "title": "开发模式配置",
+        "slug": "开发模式配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "生产模式配置",
+        "slug": "生产模式配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他配置",
+        "slug": "其他配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "合并开发和生产配置",
+        "slug": "合并开发和生产配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "优化配置",
+        "slug": "优化配置",
+        "children": []
+      }
+    ],
+    "path": "/project/react-cli.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "我能学到什么",
+    "title": "总结",
     "headers": [],
-    "path": "/intro/learn.html",
+    "path": "/project/summary.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "前置知识",
-    "headers": [],
-    "path": "/intro/pre.html",
+    "title": "Vue 脚手架",
+    "headers": [
+      {
+        "level": 2,
+        "title": "开发模式配置",
+        "slug": "开发模式配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "生产模式配置",
+        "slug": "生产模式配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他配置",
+        "slug": "其他配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "合并开发和生产配置",
+        "slug": "合并开发和生产配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "优化配置",
+        "slug": "优化配置",
+        "children": []
+      }
+    ],
+    "path": "/project/vue-cli.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "依赖环境",
+    "title": "介绍",
     "headers": [],
-    "path": "/intro/",
+    "path": "/senior/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1350,13 +1357,6 @@ export const searchIndex = [
       }
     ],
     "path": "/senior/optimizePerformance.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "介绍",
-    "headers": [],
-    "path": "/senior/",
     "pathLocale": "/",
     "extraFields": []
   },

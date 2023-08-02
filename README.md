@@ -12,10 +12,6 @@
 - 🚀 项目配置
 - 💪 深入原理
 
-## 🌐 地址
-
-- [http://xxpromise.gitee.io/webpack5-docs](http://xxpromise.gitee.io/webpack5-docs)
-
 ## 📦️ 启动方式
 
 ### 1. 下载依赖
