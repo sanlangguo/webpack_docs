@@ -14,13 +14,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "学习资料",
-    "headers": [],
-    "path": "/intro/asset.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "适合群体",
     "headers": [],
     "path": "/intro/group.html",

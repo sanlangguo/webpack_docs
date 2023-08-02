@@ -37,7 +37,7 @@ module.exports = {
       "/intro/": [
         {
           text: "课程介绍",
-          children: ["/intro/README.md", "/intro/pre.md", "/intro/group.md", "/intro/learn.md", "/intro/asset.md"],
+          children: ["/intro/README.md", "/intro/pre.md", "/intro/group.md", "/intro/learn.md"],
         },
       ],
       "/base/": [
