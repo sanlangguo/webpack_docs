@@ -32,18 +32,13 @@ export const data = {
         "title": "📦 最全面的案例",
         "details": "不同角度实现loader、plugin"
       }
-    ]
+    ],
+    "footer": "MIT Licensed | Copyright © 2022-present 尚硅谷"
   },
   "excerpt": "",
   "headers": [],
   "git": {
-    "contributors": [
-      {
-        "name": "三郎过",
-        "email": "SanLangGuo@outlook.com",
-        "commits": 2
-      }
-    ]
+    "contributors": []
   },
   "filePathRelative": "README.md"
 }

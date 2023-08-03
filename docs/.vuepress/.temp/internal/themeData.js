@@ -31,7 +31,8 @@ export const themeData = {
           "/intro/README.md",
           "/intro/pre.md",
           "/intro/group.md",
-          "/intro/learn.md"
+          "/intro/learn.md",
+          "/intro/asset.md"
         ]
       }
     ],
