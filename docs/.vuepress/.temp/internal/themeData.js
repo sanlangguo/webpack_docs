@@ -1,5 +1,4 @@
 export const themeData = {
-  "logo": "/imgs/favicon.ico",
   "lastUpdated": false,
   "navbar": [
     {
@@ -31,7 +30,8 @@ export const themeData = {
           "/intro/README.md",
           "/intro/pre.md",
           "/intro/group.md",
-          "/intro/learn.md"
+          "/intro/learn.md",
+          "/intro/asset.md"
         ]
       }
     ],
@@ -100,6 +100,7 @@ export const themeData = {
       "selectLanguageName": "English"
     }
   },
+  "logo": null,
   "darkMode": true,
   "repo": null,
   "selectLanguageText": "Languages",
@@ -120,4 +121,17 @@ export const themeData = {
   "openInNewWindow": "open in new window",
   "toggleDarkMode": "toggle dark mode",
   "toggleSidebar": "toggle sidebar"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }

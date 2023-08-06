@@ -2,14 +2,13 @@ const { copyCode } = require("vuepress-plugin-copy-code2");
 
 module.exports = {
   // 站点配置
-  base: "/webpack5-docs/",
+  base: "/",
   lang: "zh-CN",
   title: "Web 前端之 Webpack5 教程",
   description: "Webpack5从小白到大神",
   // 主题和它的配置
   theme: "@vuepress/theme-default",
   themeConfig: {
-    logo: "/imgs/favicon.ico",
     lastUpdated: false,
     navbar: [
       {
@@ -37,7 +36,7 @@ module.exports = {
       "/intro/": [
         {
           text: "课程介绍",
-          children: ["/intro/README.md", "/intro/pre.md", "/intro/group.md", "/intro/learn.md"],
+          children: ["/intro/README.md", "/intro/pre.md", "/intro/group.md", "/intro/learn.md", "/intro/asset.md"],
         },
       ],
       "/base/": [

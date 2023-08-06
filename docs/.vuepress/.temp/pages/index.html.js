@@ -6,7 +6,6 @@ export const data = {
   "frontmatter": {
     "home": true,
     "title": "首页",
-    "heroImage": "/imgs/logo.svg",
     "actions": [
       {
         "text": "课程介绍",
@@ -46,4 +45,17 @@ export const data = {
     ]
   },
   "filePathRelative": "README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

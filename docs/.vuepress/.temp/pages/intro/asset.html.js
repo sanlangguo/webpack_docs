@@ -1,7 +1,7 @@
 export const data = {
   "key": "v-0670fc65",
   "path": "/intro/asset.html",
-  "title": "",
+  "title": "学习资料",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
@@ -11,7 +11,7 @@ export const data = {
       {
         "name": "三郎过",
         "email": "SanLangGuo@outlook.com",
-        "commits": 1
+        "commits": 3
       }
     ]
   },

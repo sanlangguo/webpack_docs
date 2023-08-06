@@ -1,7 +1,6 @@
 ---
 home: true
 title: 首页
-heroImage: /imgs/logo.svg
 actions:
   - text: 课程介绍
     link: /intro/
