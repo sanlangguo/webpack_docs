@@ -135,6 +135,11 @@ export const data = {
   "git": {
     "contributors": [
       {
+        "name": "sanlangguo",
+        "email": "SanLangGuo@outlook.com",
+        "commits": 1
+      },
+      {
         "name": "三郎过",
         "email": "SanLangGuo@outlook.com",
         "commits": 1
@@ -142,17 +147,4 @@ export const data = {
     ]
   },
   "filePathRelative": "senior/optimizePerformance.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

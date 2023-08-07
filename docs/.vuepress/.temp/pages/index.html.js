@@ -40,22 +40,14 @@ export const data = {
       {
         "name": "三郎过",
         "email": "SanLangGuo@outlook.com",
-        "commits": 2
+        "commits": 3
+      },
+      {
+        "name": "sanlangguo",
+        "email": "SanLangGuo@outlook.com",
+        "commits": 1
       }
     ]
   },
   "filePathRelative": "README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }
