@@ -1,0 +1,1 @@
+const a={key:"v-1d695a4e",path:"/senior/summary.html",title:"\u603B\u7ED3",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{contributors:[{name:"sanlangguo",email:"SanLangGuo@outlook.com",commits:1},{name:"\u4E09\u90CE\u8FC7",email:"SanLangGuo@outlook.com",commits:1}]},filePathRelative:"senior/summary.md"};export{a as data};
