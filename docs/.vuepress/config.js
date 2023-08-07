@@ -2,7 +2,7 @@ const { copyCode } = require("vuepress-plugin-copy-code2");
 
 module.exports = {
   // 站点配置
-  base: "/",
+  base: "/webpack_docs/",
   lang: "zh-CN",
   title: "Web 前端之 Webpack5 教程",
   description: "Webpack5从小白到大神",
